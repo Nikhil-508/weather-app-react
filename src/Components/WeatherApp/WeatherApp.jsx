@@ -125,7 +125,8 @@ try{
       </div>  
       {errorMessage && (
           <div>
-            <p>{errorMessage}</p>
+            <br />
+            <p style={{color:'white'}}>{errorMessage}</p>
           </div>
         )}
     </div>
